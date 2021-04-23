@@ -84,7 +84,7 @@ test("gets player's attack value", () => {
 
   expect(player.getAttackValue()).toBeGreaterThanOrEqual(5);
   expect(player.getAttackValue()).toBeLessThanOrEqual(15);
-})
+});
 
 // -------------------------------------------------------------------
 
